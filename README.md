@@ -2,7 +2,7 @@
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
-This challenge allows you to practice the concepts and techniques learned over the past sprint and apply them in a concrete project. This sprint explored **Java Fundamentals**. During this sprint, you studied **Java Fundamentals*. In your challenge this week, you will demonstrate your mastery of these skills by creating **a Java Spring Database Application using Object Oriented Programming**.
+This challenge allows you to practice the concepts and techniques learned over the past sprint and apply them in a concrete project. This sprint explored **Java Fundamentals**. During this sprint, you studied **Java Fundamentals\*. In your challenge this week, you will demonstrate your mastery of these skills by creating **a Java Spring Database Application using Object Oriented Programming\*\*.
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
@@ -20,23 +20,35 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 ## Interview Questions
 
-Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. 
+Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics.
 
 1. Explain how you took advantage of Java's Object Oriented approach to solve the sprint challenge.
+
+   With clear stucture of the data I was able to move the data seaminglessly between each class and interger
+
 2. Explain how you connected your solution to a database, including what code was necessary for this task.
+
+   In the resource package inside the app property passing in the spring datasource to always be initialized
+
 3. Explain the advantages of the project structure (packages) you used.
+
+   Able to retrieve as well as manipulate the data all in the same class by calling the setter or getter to complete the process,
+
 4. Explain the differences between Abstract Classes and Interfaces, including how they are used in your application?
+
+   Interfaces are able implement other interfaces as well as extend a abstract class.
+   Abstract classes only show what is needed to get the process done and it can extend classes the info that is avail to share.
 
 ## Instructions
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Start with the provided piggybank application
-- [ ] Push commits: `git push -u origin <firstName-lastName>`
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Create a forked copy of this project
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Start with the provided piggybank application
+- [x] Push commits: `git push -u origin <firstName-lastName>`
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
 
 #### Video on How to Set Up Your Project
 
@@ -44,7 +56,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 ### Task 2: Project Requirements
 
-- [ ] You are to start with the provided initial application.
+- [x] You are to start with the provided initial application.
 - This application was created using the wizard in IntelliJ
   - The application is named piggybank
   - You do not need to use services or configuration packages
@@ -52,13 +64,13 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
   - You do need to
     - update the applications.properties configuration file
     - create the necessary packages (at least 3 are needed) and classes
-- [ ] Create a model Coin to represent the table for the piggy bank
+- [x] Create a model Coin to represent the table for the piggy bank
   - Each row in the table contains: (use the provided data.sql as a guide)
     - The number of coins in this group
     - The face value of the coins in the group
     - The name of a single coin
     - The name of more than one coin
-- [ ] Create an endpoint http://localhost:2019/total that prints to console the contents of the Piggy Bank as follows and returns an HTTP Status of OK:
+- [x] Create an endpoint http://localhost:2019/total that prints to console the contents of the Piggy Bank as follows and returns an HTTP Status of OK:
 
 In your console in IntelliJ you should see:
 
@@ -77,17 +89,17 @@ In Postman you should see
 
 ![Postman Image](postman.png)
 
-Note: 7.30 = ( 1 * 0.25) + ( 1 * 0.10) + ( 5 * 1.00) + ( 3 * 0.05) + ( 7 * 0.10) + ( 1 * 1.00) + (10 * 0.10)
+Note: 7.30 = ( 1 _ 0.25) + ( 1 _ 0.10) + ( 5 _ 1.00) + ( 3 _ 0.05) + ( 7 _ 0.10) + ( 1 _ 1.00) + (10 \* 0.10)
 
 Note: that when you have more than 1 coin, the plural of the coin's name is printed.
 
 ### Required best practices
 
-- [ ] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ] Consistent quotation usage.
-- [ ] Spell-check.
-- [ ] Schedule time to review, refine and reassess your work.
+- [x] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [x] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [x] Consistent quotation usage.
+- [x] Spell-check.
+- [x] Schedule time to review, refine and reassess your work.
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
 
@@ -113,7 +125,7 @@ After finishing your required elements, you can push your work further. These go
     The piggy bank holds $5.8
 ```
 
-  - If the money cannot be removed, the following should be printed to the console and return an HTTP Status of OK
+- If the money cannot be removed, the following should be printed to the console and return an HTTP Status of OK
 
 ```TEXT
     Money not available
@@ -123,4 +135,4 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Set up your fork on Github to submit via Codegrade, pushing commits to your <firstName-lastName> branch.
+- [x] Set up your fork on Github to submit via Codegrade, pushing commits to your <firstName-lastName> branch.
